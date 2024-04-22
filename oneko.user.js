@@ -4,8 +4,8 @@
 // @version      2024-04-22
 // @description  Animated cat that follows your mouse cursor
 // @author       Aslam
-// @match        https://www.youtube.com/*
-// @icon         https://raw.githubusercontent.com/dev-aslam/oneko.js/main/favicon.ico
+// @match        *://*/*
+// @icon         https://raw.githubusercontent.com/dev-aslam/oneko-userscript/main/favicon.ico
 // @grant        none
 // ==/UserScript==
 
@@ -101,7 +101,7 @@
         nekoEl.style.left = `${nekoPosX - 16}px`;
         nekoEl.style.top = `${nekoPosY - 16}px`;
         nekoEl.style.zIndex = Number.MAX_VALUE;
-        nekoEl.style.backgroundImage = 'url("https://raw.githubusercontent.com/dev-aslam/oneko.js/main/oneko.gif")'; // Replace with your cat image URL
+        nekoEl.style.backgroundImage = 'url("https://raw.githubusercontent.com/dev-aslam/oneko-userscript/main/oneko.gif")';
 
         document.body.appendChild(nekoEl);
 
