@@ -37,7 +37,7 @@ Modify the above examples to match the URLs of the specific websites where you w
 
 #### Excluding the Cat on Specific Sites
 
-Conversely, if you want to prevent the cat animation from appearing on certain websites, you can use the @exclude directive. Add @exclude directives to specify URLs or patterns where the script should not run.
+Conversely, if you want to prevent the cat animation from appearing on certain websites, you can use the `@exclude` directive. Add `@exclude` directives to specify URLs or patterns where the script should not run.
 
 Example `@exclude` directive:
 
