@@ -37,7 +37,7 @@ Modify the above examples to match the URLs of the specific websites where you w
 
 #### Excluding the Cat on Specific Sites
 
-Conversely, if you want to prevent the cat animation from appearing on certain websites, you can use the @exclude directive. Add @exclude directives to specify URLs or patterns where the script should not run.
+Conversely, if you want to prevent the cat animation from appearing on certain websites, you can use the `@exclude` directive. Add `@exclude` directives to specify URLs or patterns where the script should not run.
 
 Example `@exclude` directive:
 
@@ -60,12 +60,8 @@ To disable the userscript temporarily or permanently:
 
 ## Notes
 
-- This script is inspired by the `oneko.js` project and recreates a similar interactive experience with a cat animation.
+- This script is inspired by the [oneko.js](https://github.com/adryd325/oneko.js) project and recreates a similar interactive experience with a cat animation.
 
 ## Disclaimer
 
 This userscript modifies the appearance and behavior of webpages. Use it responsibly and be aware that changes made by this script may affect your browsing experience.
-
-```
-
-```
