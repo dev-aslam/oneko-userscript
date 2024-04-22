@@ -100,7 +100,7 @@
         nekoEl.style.imageRendering = "pixelated";
         nekoEl.style.left = `${nekoPosX - 16}px`;
         nekoEl.style.top = `${nekoPosY - 16}px`;
-        nekoEl.style.zIndex = Number.MAX_VALUE;
+        nekoEl.style.zIndex = 9999999999;
         nekoEl.style.backgroundImage = 'url("https://raw.githubusercontent.com/dev-aslam/oneko-userscript/main/oneko.gif")';
 
         document.body.appendChild(nekoEl);
